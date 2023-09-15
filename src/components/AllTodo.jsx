@@ -4,7 +4,7 @@ import Main from './Main'
 
 const AllTodo = () => {
   return (
-    <div className='w-[700px] '>
+    <div className='w-[700px] flex flex-col justify-center items-center'>
       <Header/>
       <Main/>
     </div>

@@ -6,7 +6,7 @@ import ListCount from './ListCount'
 const Main = () => {
   
   return (
-    <div className=' bg-[#F7F7FF] h-full relative  w-full rounded-b-2xl '>
+    <div className=' bg-[#F7F7FF] h-full relative   !w-[550px] rounded-b-2xl '>
          
         <div className='flex justify-center items-center'>
           

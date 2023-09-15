@@ -9,7 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#f9f6b9 ;
+  background-color:#4c1bfd ;
+  background-repeat: no-repeat;
+  background-image: url("../src/pages/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+  background-size: 100% 300px;
+ 
 }
 
 code {

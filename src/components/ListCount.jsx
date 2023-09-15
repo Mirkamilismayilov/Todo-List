@@ -11,6 +11,8 @@ const ListCount = () => {
        <div><p>Completed: {completedCount} </p></div>  
 </div>
 
+
+
 <div className='' >
             
           <button onClick={()=>AllDelete()} className='bg-red-500 p-2 rounded-xl border-2'>AllDelete</button>

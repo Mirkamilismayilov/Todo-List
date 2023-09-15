@@ -12,6 +12,9 @@ const Todos = () => {
     <div className='flex justify-center items-center   '>
     
       <ul className=' h-full w-full flex justify-center items-center   mt-2 flex-col gap-4 '>
+     { 
+      todos.length !== 0 ? (
+     <>
         {
           
           todos?.map((todo,index)=>(
@@ -25,7 +28,9 @@ const Todos = () => {
           ))
 
         }
-       
+        </>
+      ) : (<div className='listBosdur '>List is Empty</div>)
+       }
       </ul>
     </div>
   )
