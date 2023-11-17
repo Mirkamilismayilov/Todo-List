@@ -1,10 +1,8 @@
 import AllTodo from "./components/AllTodo";
 import TodoContext from "./context/TodoContext";
-import "./index.css"
+import "./index.css";
 // import img from "../src/pages/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg"
 function App() {
-
-
 
   return (
 
