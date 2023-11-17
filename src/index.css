@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 body {
   margin: 0;
@@ -9,17 +9,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#4c1bfd ;
+  background-color:#000000 ;
   background-repeat: no-repeat;
   background-image: url("../src/pages/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
   background-size: 100% 300px;
- 
+  backdrop-filter: brightness(0.6);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.completed{
+
+.completed {
   text-decoration: line-through;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(107 114 128);
+  border-radius: 50px;
+  margin-right: -10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(99, 103, 113);
+  cursor: pointer;
+}
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 50px;
+
 }
